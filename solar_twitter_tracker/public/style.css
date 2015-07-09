@@ -1,0 +1,206 @@
+.message {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: #FC4607;
+}
+
+.page-content {
+  margin-top: 50px;
+}
+
+#left-scroll {
+  height: 588px;
+  overflow: scroll;
+}
+
+.clr:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+a {
+  color: white;
+}
+a: hover {
+   color: rgb(243, 244, 41);
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+#reference {
+  padding-right: 40px;
+  color: white;
+}
+
+#background {
+  color: silver;
+  opacity: .8;
+}
+
+#link {
+ text-decoration: underline;
+}
+
+h4 {
+  margin-bottom: 30px;
+  color: white;
+  position: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+#startbutton {
+
+   border-top: 1px solid #96d1f8;
+   background: ##FF7F00;
+   background: -webkit-#FF7F00;
+   background: -webkit-linear-gradient(top, #f70d0d, #ff0000);
+   background: -moz-linear-gradient(top, #f70d0d, #ff0000);
+   background: -ms-linear-gradient(top, #f70d0d, #ff0000);
+   background: #FF7F00;
+   padding: 6.5px 13px 1.5px;
+   -webkit-border-radius: 32px;
+   -moz-border-radius: 32px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #f9fcfc;
+   background: #f9fcfc;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #deb562;
+   background: #deb562;
+}
+.leaflet-popup-content {
+  border: solid 1px grey;
+  border-radius: 25px;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 25px;
+}
+form {
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+input {
+  color: black;
+}
+
+
+.sign-log {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.sign-log input {
+  margin-top: -15px;
+}
+
+.sign-log p {
+  margin-top: 10px;
+}
+
+.sign-log-btn {
+  margin-bottom: -30px;
+}
+
+#tweet-count {
+  display: none;
+}
+
+#counter {
+  display: inline;
+}
+
+
+#wait-msg {
+  display: none;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+#tweetd img {
+  float: left;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+#tweetd div {
+  margin-bottom: 20px;
+}
+
+#map {
+  width: 800px;
+  height: 500px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#four-oh-four {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #FC4607;
+  color: #fff;
+}
+.buttonClass {
+    width:          30px;
+    height:         40px;
+    padding:        10px 60px;
+    display: inline;
+  }
+
+
+body {
+    position: relative;
+}
+
+b, strong {
+  color: silver;
+}
+
+body:after {
+ background-image: url('http://blogs.sap.com/innovation/files/2015/02/solar-panels.jpg') ;
+    opacity: 0.9;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.headerText {
+  padding-bottom: 40px;
+  color: white;
+  font-size: 40px;
+  margin-left: 250px;
+}
